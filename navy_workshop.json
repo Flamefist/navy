@@ -1,0 +1,46 @@
+{
+	"name" : "ordersList",
+	"orders" : [
+		{
+			"uid" : 1234,
+			"projectDescription" : "Описание проекта",
+			"projectRequirements" : "Требования к проекту",
+			"employee" : [
+				{
+					"id" : 12345332,
+					"name" : "Егоров С.И.",
+					"phone" : 89039665262,
+					"isEmployee" : true
+				}
+			],
+			"status" : [
+				{
+					"id" : 1,
+					"title" : "Новый"
+				},
+				{
+					"id" : 2,
+					"title" : "В работе"
+				},
+				{
+					"id" : 3,
+					"title" : "Выполнено"
+				}
+			],
+			"usedMaterials" : [
+				{
+					"id" : 1234,
+					"type" : "Ноззл",
+					"title" : "AK-short",
+					"price" : "500 руб"
+				},
+				{
+					"id" : 43246,
+					"type" : "Пружина",
+					"title" : "SYSTEMA-120",
+					"price" : "500 руб"
+				}
+			]
+		}
+	]
+}
